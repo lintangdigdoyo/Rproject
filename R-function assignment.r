@@ -35,7 +35,7 @@ f <- function(x){
     fx <- 2*x^2 + 6*x + 10
     return(fx)
 }
-input <- -30:--35
+input <- -30:35
 plot(input,
 sapply(input,f),
 type="l",
